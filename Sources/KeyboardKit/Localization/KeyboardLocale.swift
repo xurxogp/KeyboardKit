@@ -50,6 +50,7 @@ public enum KeyboardLocale: String,
     case french = "fr"
     case french_belgium = "fr_BE"
     case french_switzerland = "fr_CH"
+    case galician = "gl_ES"
     case georgian = "ka"
     case german = "de"
     case german_austria = "de_AT"
@@ -144,6 +145,7 @@ public extension KeyboardLocale {
 
         case .french_belgium: return "french_belgium"
         case .french_switzerland: return "french_switzerland"
+	case .galician: return "galician"
         case .georgian: return "georgian"
         case .german: return "german"
         case .german_austria: return "german_austria"
@@ -216,6 +218,7 @@ public extension KeyboardLocale {
 
         case .french_belgium: return "🇧🇪"
         case .french_switzerland: return "🇨🇭"
+        case .galician: return "🏳️"
         case .georgian: return "🇬🇪"
         case .german: return "🇩🇪"
         case .german_austria: return "🇦🇹"
